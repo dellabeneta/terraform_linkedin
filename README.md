@@ -18,6 +18,6 @@ Vamos criar esse projeto por etapas, que serão:
   
 
 - Git clone do Projeto e Análise inicial (Download do Projeto e Overview da Arquitetura.);
--- Git Clone do Projeto.
--- Overview do Desenho de Arquitetura.
--- Conversar livremente sobre os recursos utilizados e como eles se Interconectam.
+  - Git Clone do Projeto.
+  - Overview do Desenho de Arquitetura.
+  - Conversar livremente sobre os recursos utilizados e como eles se Interconectam.

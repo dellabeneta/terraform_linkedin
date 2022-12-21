@@ -10,7 +10,7 @@ resource "aws_db_instance" "db_instance" {
   parameter_group_name = var.parameter_group_name
   db_subnet_group_name = local.db_subnet_group[terraform.workspace]
   vpc_security_group_ids = [aws_security_group.sg_dbinstance.id]
-  publicly_accessible    = var.publicly_accessible
+  //publicly_accessible    = var.publicly_accessible
   skip_final_snapshot    = var.skip_final_snapshot
 
   depends_on = [aws_db_subnet_group.db_subnet_group]

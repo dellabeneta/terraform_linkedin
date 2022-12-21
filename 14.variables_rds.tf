@@ -1,9 +1,9 @@
 variable "db_username" {
-  default = "wordpressuser"
+  default = "wordpress"
 }
 
 variable "db_password" {
-  default = "wordpresspass"
+  default = "wordpress"
 }
 
 variable "allocated_storage" {
@@ -36,29 +36,29 @@ variable "publicly_accessible" {
 
 locals {
   db_name = {
-    dev = "solvimm_db_dev"
-    pro = "solvimm_db_pro"
+    dev = "linkedin_db_dev"
+    pro = "linkedin_db_pro"
   }
 }
 
 locals {
   db_subnet_group = {
-    dev = "solvimm_db_subnet_group_dev"
-    pro = "solvimm_db_subnet_group_pro"
+    dev = "linkedin_db_subnet_group_dev"
+    pro = "linkedin_db_subnet_group_pro"
   }
 }
 
 
 locals {
   sg_rds_name = {
-    dev = "solvimm-sg-rds-dev"
-    pro = "solvimm-sg-rds-pro"
+    dev = "linkedin-sg-rds-dev"
+    pro = "linkedin-sg-rds-pro"
   }
 }
 
 locals {
   db_identifier = {
-    dev = "solvimm-id-rds-dev"
-    pro = "solvimm-id-rds-pro"
+    dev = "linkedin-id-rds-dev"
+    pro = "linkedin-id-rds-pro"
   }
 }

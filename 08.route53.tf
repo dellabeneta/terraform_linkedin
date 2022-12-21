@@ -3,7 +3,7 @@ data "aws_lb" "lb_data" {
 }
 
 resource "aws_route53_record" "alias_subdomain_workspace_to_alb" {
-  zone_id = "Z10255612AQML7BG0A84P"
+  zone_id = "??"
   name    = local.subdomain_name[terraform.workspace]
   type    = "A"
 

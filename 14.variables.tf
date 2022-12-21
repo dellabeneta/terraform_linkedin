@@ -3,7 +3,7 @@
 ############################################
 
 variable "aws_profile" {
-  default = "case.solvimm"
+  default = "linkedin"
 }
 
 variable "aws_region" {
@@ -12,8 +12,8 @@ variable "aws_region" {
 
 locals {
   project = {
-    dev = "solvimm-project-dev"
-    pro = "solvimm-project-pro"
+    dev = "linkedin-project-dev"
+    pro = "linkedin-project-pro"
   }
 }
 
@@ -44,71 +44,71 @@ variable "aws_zones_count" {
 
 locals {
   vpc_name = {
-    dev = "solvimm-vpc-dev"
-    pro = "solvimm-vpc-pro"
+    dev = "linkedin-vpc-dev"
+    pro = "linkedin-vpc-pro"
   }
 }
 
 locals {
   subnet_name = {
-    dev = "solvimm-subnet-dev"
-    pro = "solvimm-subnet-pro"
+    dev = "linkedin-subnet-dev"
+    pro = "linkedin-subnet-pro"
   }
 }
 
 locals {
   lb_name = {
-    dev = "solvimm-lb-dev"
-    pro = "solvimm-lb-pro"
+    dev = "linkedin-lb-dev"
+    pro = "linkedin-lb-pro"
   }
 }
 
 locals {
   listener80 = {
-    dev = "solvimm-listener80-dev"
-    pro = "solvimm-listener80-pro"
+    dev = "linkedin-listener80-dev"
+    pro = "linkedin-listener80-pro"
   }
 }
 
 locals {
   listener443 = {
-    dev = "solvimm-listener443-dev"
-    pro = "solvimm-listener443-pro"
+    dev = "linkedin-listener443-dev"
+    pro = "linkedin-listener443-pro"
   }
 }
 
 locals {
   tg_name = {
-    dev = "solvimm-tg-dev"
-    pro = "solvimm-tg-pro"
+    dev = "linkedin-tg-dev"
+    pro = "linkedin-tg-pro"
   }
 }
 
 locals {
   igw_name = {
-    dev = "solvimm-igw-dev"
-    pro = "solvimm-igw-pro"
+    dev = "linkedin-igw-dev"
+    pro = "linkedin-igw-pro"
   }
 }
 
 locals {
   sg_lb_name = {
-    dev = "solvimm-sg-lb-dev"
-    pro = "solvimm-sg-lb-pro"
+    dev = "linkedin-sg-lb-dev"
+    pro = "linkedin-sg-lb-pro"
   }
 }
 
 locals {
   sg_ec2_name = {
-    dev = "solvimm-sg-ec2-dev"
-    pro = "solvimm-sg-ec2-pro"
+    dev = "linkedin-sg-ec2-dev"
+    pro = "linkedin-sg-ec2-pro"
   }
 }
 
 locals {
   route_table_name = {
-    dev = "solvimm-rt-dev"
-    pro = "solvimm-rt-pro"
+    dev = "linkedin-rt-dev"
+    pro = "linkedin-rt-pro"
   }
 }
 
@@ -126,8 +126,8 @@ variable "bucket_acl" {
 
 locals {
   bucket_name = {
-    dev = "solvimm-s3-bucket-developer"
-    pro = "solvimm-s3-bucket-production"
+    dev = "linkedin-s3-bucket-developer"
+    pro = "linkedin-s3-bucket-production"
   }
 }
 
@@ -148,15 +148,15 @@ locals {
 
 locals {
   ec2_name = {
-    dev = "solvimm-webserver-dev"
-    pro = "solvimm-webserver-pro"
+    dev = "linkedin-webserver-dev"
+    pro = "linkedin-webserver-pro"
   }
 }
 
 locals {
   key_pair = {
-    dev = "solvimm-keypair-dev"
-    pro = "solvimm-keypair-pro"
+    dev = "linkedin-keypair-dev"
+    pro = "linkedin-keypair-pro"
   }
 }
 
@@ -166,42 +166,42 @@ locals {
 
 locals {
   lt_name = {
-    dev = "solvimm-lt-dev"
-    pro = "solvimm-lt-pro"
+    dev = "linkedin-lt-dev"
+    pro = "linkedin-lt-pro"
   }
 }
 
 locals {
   asg_name = {
-    dev = "solvimm-asg-dev"
-    pro = "solvimm-asg-pro"
+    dev = "linkedin-asg-dev"
+    pro = "linkedin-asg-pro"
   }
 }
 
 locals {
   policy_up = {
-    dev = "solvimm-instance-up-dev"
-    pro = "solvimm-instance-up-pro"
+    dev = "linkedin-instance-up-dev"
+    pro = "linkedin-instance-up-pro"
   }
 }
 
 locals {
   policy_down = {
-    dev = "solvimm-instance-down-dev"
-    pro = "solvimm-instance-down-pro"
+    dev = "linkedin-instance-down-dev"
+    pro = "linkedin-instance-down-pro"
   }
 }
 
 locals {
   instancecpu_alarm_up = {
-    dev = "solvimm-instancecpu-alarm-up-dev"
-    pro = "solvimm-instancecpu-alarm-up-pro"
+    dev = "linkedin-instancecpu-alarm-up-dev"
+    pro = "linkedin-instancecpu-alarm-up-pro"
   }
 }
 
 locals {
   instancecpu_alarm_down = {
-    dev = "solvimm-instancecpu-alarm-down-dev"
-    pro = "solvimm-instancecpu-alarm-down-pro"
+    dev = "linkedin-instancecpu-alarm-down-dev"
+    pro = "linkedin-instancecpu-alarm-down-pro"
   }
 }

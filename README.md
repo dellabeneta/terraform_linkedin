@@ -1,6 +1,7 @@
 # terraform_linkedin
 
-<img src="youtube.png" width="50"/> Playlist no Youtube: https://youtube.com/playlist?list=PLXV200dpiF4XFfVk_j7XEsZWXETTti51l
+<img src="youtube.png" width="50"/>
+Playlist no Youtube: https://youtube.com/playlist?list=PLXV200dpiF4XFfVk_j7XEsZWXETTti51l
 
 **Pessoal, esse vai ser o projeto (simples e com secrets expostos!) que iremos abordar na nossa série de vídeos. Abaixo o desenho da aquitetura:**
 

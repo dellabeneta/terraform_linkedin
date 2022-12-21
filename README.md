@@ -10,6 +10,11 @@ Playlist no Youtube com as etapas do projeto: https://youtube.com/playlist?list=
 
 Vamos criar esse projeto por etapas, que serão:
 
-1 - O básico necessário para começar (Praparando o Ambiente.).
+- O básico necessário para começar (Praparando o Ambiente.);
+  - Instalar as ferramentas básicas p/ lidar com o Projeto.
+  - Gerar um par de chaves que usaremos no Projeto (GitHub, Instâcias ...)
+  - Configurar a chave pública no GitHub.
+  - Criar um usuário no IAM para o projeto e depois configurá-lo no AWS CLI.
+  
 
 2 - Git clone do Projeto e Análise inicial (Download do Projeto e Overview.).

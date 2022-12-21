@@ -1,9 +1,0 @@
-Primeiro Video:
-
-Preparar o ambiente de trabalho:
-
-1. Instalar as ferramentas básicas p/ lidar com o Projeto.
-2. Gerar um par de chaves que usaremos no Projeto (GitHub, Instâcias ...)
-3. Configurar a chave pública no GitHub.
-2. Criar um usuário no IAM para o projeto e depois configurá-lo no AWS CLI.
-3. Testar a conexão do nosso Terraform com a AWS.

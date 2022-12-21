@@ -21,3 +21,9 @@ Vamos criar esse projeto por etapas, que serão:
   - Git Clone do Projeto.
   - Overview do Desenho de Arquitetura.
   - Conversar livremente sobre os recursos utilizados e como eles se Interconectam.
+
+Escrever Terraform e Testar o Projeto.
+
+1. Vamos olhar o código Terraform e seus elementos principais.
+2. Organizar os arquivos.
+3. Sobre a abordagem do "Workspaces" que utilizei.

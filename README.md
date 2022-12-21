@@ -5,4 +5,6 @@ Pessoal, esse vai ser o projeto (simples e com secrets expostos!) que iremos abo
 
 ![diagrama](https://github.com/dellabeneta/terraform_linkedin/blob/master/004.drawio.svg)
 
-
+Michel
+Michel
+10

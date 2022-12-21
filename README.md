@@ -1,10 +1,10 @@
 # terraform_linkedin
 
-<img src="youtube.png" height="100" width="100" align="center"/>Playlist no Youtube: https://youtube.com/playlist?list=PLXV200dpiF4XFfVk_j7XEsZWXETTti51l
+<img src="/extras/youtube.png" height="100" width="100" align="center"/>Playlist no Youtube: https://youtube.com/playlist?list=PLXV200dpiF4XFfVk_j7XEsZWXETTti51l
 
 **Pessoal, esse vai ser o projeto (simples e com secrets expostos!) que iremos abordar na nossa série de vídeos. Abaixo o desenho da aquitetura:**
 
-![diagrama](https://github.com/dellabeneta/terraform_linkedin/blob/master/004.drawio.svg)
+![diagrama](https://github.com/dellabeneta/terraform_linkedin/blob/master/extras/004.drawio.svg)
 
 Vamos criar esse projeto por etapas, que serão:
 

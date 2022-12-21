@@ -1,5 +1,6 @@
 # terraform_linkedin
 
+<img src="[youtube.png](https://github.com/dellabeneta/terraform_linkedin/blob/master/youtube.png)" alt="drawing" width="200"/>
 ![diagrama](https://github.com/dellabeneta/terraform_linkedin/blob/master/youtube.png)Playlist no Youtube com as etapas do projeto: https://youtube.com/playlist?list=PLXV200dpiF4XFfVk_j7XEsZWXETTti51l
 
 **Pessoal, esse vai ser o projeto (simples e com secrets expostos!) que iremos abordar na nossa série de vídeos. Abaixo o desenho da aquitetura:**

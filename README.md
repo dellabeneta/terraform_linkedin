@@ -1,6 +1,6 @@
 # terraform_linkedin
 
-<img src="youtube.png" alt="drawing" width="200"/>
+<img src="youtube.png" alt="drawing" width="100"/>
 
 <img src="[youtube.png](https://github.com/dellabeneta/terraform_linkedin/blob/master/youtube.png)" alt="drawing" width="200"/>
 ![diagrama](https://github.com/dellabeneta/terraform_linkedin/blob/master/youtube.png)Playlist no Youtube com as etapas do projeto: https://youtube.com/playlist?list=PLXV200dpiF4XFfVk_j7XEsZWXETTti51l

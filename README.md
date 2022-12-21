@@ -1,4 +1,4 @@
-# terraform_linkedin <img src="youtube.png" alt="drawning" width="50"/>
+# terraform_linkedin <img src="youtube.png" alt="youtube" width="50"/>
 
 Playlist no Youtube: https://youtube.com/playlist?list=PLXV200dpiF4XFfVk_j7XEsZWXETTti51l
 

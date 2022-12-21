@@ -17,4 +17,7 @@ Vamos criar esse projeto por etapas, que serão:
   - Criar um usuário no IAM para o projeto e depois configurá-lo no AWS CLI.
   
 
-2 - Git clone do Projeto e Análise inicial (Download do Projeto e Overview.).
+- Git clone do Projeto e Análise inicial (Download do Projeto e Overview da Arquitetura.);
+-- Git Clone do Projeto.
+-- Overview do Desenho de Arquitetura.
+-- Conversar livremente sobre os recursos utilizados e como eles se Interconectam.
